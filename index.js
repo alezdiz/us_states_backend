@@ -19,4 +19,4 @@ app.get('/us_state', (req, res) => {
   res.json(us_state);
 });
 
-app.listen(port, () => console.log(`Hello world app listening on port ${port}!`))
+app.listen(port)
